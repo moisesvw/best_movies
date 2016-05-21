@@ -1,0 +1,16 @@
+BestMoviesIntent what were the best movies of {PublicationDateRangeOne}
+BestMoviesIntent what were the best films of {PublicationDateRangeOne}
+BestMoviesIntent search movies between {PublicationDateRangeOne} and {PublicationDateRangeTwo}
+BestMoviesIntent search movies in {PublicationDateRangeOne}
+BestMoviesIntent search movies for {PublicationDateRangeOne}
+BestMoviesIntent bring movies between {PublicationDateRangeOne} and {PublicationDateRangeTwo}
+BestMoviesIntent bring movies from {PublicationDateRangeOne}
+BestMoviesIntent best movies in {PublicationDateRangeOne}
+BestMoviesIntent best movies for {PublicationDateRangeOne}
+BestMoviesIntent get movies between {PublicationDateRangeOne} and {PublicationDateRangeTwo}
+BestMoviesIntent get movies for {PublicationDateRangeOne}
+
+BestMoviesIntentRead read {ReadOrder} {ReadN}
+BestMoviesIntentRead read {ReadOrder}
+BestMoviesIntentRead please read {ReadOrder} {ReadN}
+BestMoviesIntentRead please read {ReadOrder}

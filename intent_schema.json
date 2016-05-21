@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "intent": "BestMoviesIntent",
+      "slots": [
+        {
+          "name": "PublicationDateRangeOne",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER"
+        },
+        {
+          "name": "PublicationDateRangeTwo",
+          "type": "AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "BestMoviesIntentRead",
+      "slots": [
+        {
+          "name": "ReadOrder",
+          "type": "LIST_OF_ORDEN"
+        },
+        {
+          "name": "ReadN",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    }
+
+  ]
+}
+
+
+LIST_OF_ORDEN = | first | last | all

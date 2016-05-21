@@ -1,0 +1,8 @@
+"""
+  This file is to containt configuration values.
+  You may want to rename this as config.py
+"""
+
+ENV =  { 
+  "app_id": "amzn1.echo-sdk-ams.app"
+}
